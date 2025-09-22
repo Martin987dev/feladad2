@@ -8,5 +8,10 @@ namespace ConsoleApp2
 {
     interface ISqlStatements
     {
+        List<object> GetAllRecords();
+
+        object GetById(int id);
+
+        object AddNewRecord(object newBook);
     }
 }
